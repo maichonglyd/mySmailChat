@@ -6,11 +6,11 @@ window.onload = function(){
 
 function init(){
 
-var info			= document.getElementById("info");
+var info		= document.getElementById("info");
 var nickWrapper		= document.getElementById("nickWrapper");
 var nicknameInput	= document.getElementById("nicknameInput");
 var loginBtn		= document.getElementById("loginBtn");
-var chatMsg			= document.getElementById("chatMsg");
+var chatMsg		= document.getElementById("chatMsg");
 var chatSendBtn		= document.getElementById("chatSendBtn");
 var loginPage		= document.getElementById("loginPage");
 	
