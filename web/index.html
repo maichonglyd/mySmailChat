@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>我的聊天室</title>
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+	<div class="container">
+		<div class="titles">
+			<h1 >my smail chat</h1>
+		</div>
+		<div class="chatValue" id="chatValue">
+		</div>
+		<div class="sends">
+			<input type="text" class="writeBox" placeHolder="请输入文本" id="chatMsg"></input>
+			<input type="button" class="sendButton" id="chatSendBtn" value="发送"></input>
+		</div>
+	</div>
+	<div id="loginPage">
+		<p id="info">正在连接....</p>
+		<div id="nickWrapper">
+                <input type="text" placeHolder="请输入昵称" id="nicknameInput" />
+                <input type="button" value="确定" id="loginBtn" />
+            </div>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="script/main.js"></script>
+</body>
+</html>
