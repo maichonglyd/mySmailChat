@@ -1,0 +1,25 @@
+{
+  "name": "mySmailChat",
+  "version": "0.1.0",
+  "description": "",
+  "main": "servers.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maichonglyd/mySmailChat.git"
+  },
+  "keywords": [
+    "li"
+  ],
+  "author": "li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maichonglyd/mySmailChat/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
