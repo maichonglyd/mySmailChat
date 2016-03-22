@@ -10,9 +10,9 @@ let userList = [];
 http.listen(3000);
 app.use("/",express.static(__dirname+"/web"));
 
-io.on("connection",userConnction);
+io.on("connection",userConnection);
 
-function userConnction(socket){
+function userConnection(socket){
 	console.log("a user connecting!!");
 	let user = new User("",socket);
 	userList.push(user);
@@ -80,12 +80,6 @@ function addName(name,socket){
 class User{
 	constructor(name,socket){
 		this.nickName = name;
-		this.socket = socket;
-	}
-	setName(name){
-		this.nickName = name;
-	}
-	setSocket(){
 		this.socket = socket;
 	}
 	getName(){
